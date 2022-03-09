@@ -5,11 +5,12 @@
     padding: 0;
     text-decoration: none;
     color: white;
+
 }
 
 body {
     background-color: #151226;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -61,7 +62,7 @@ img {
 
 #conteudo-site {
     text-align: justify;
-    padding: 48px;
+    padding-inline-end: 30px;
 }
 
 #titulo-conteudo {
@@ -100,5 +101,9 @@ img {
         display: flex;
         flex-direction: column;
         max-width: 600px;
+    }
+
+    #conteudo-site {
+        padding: 25px;
     }
 }
