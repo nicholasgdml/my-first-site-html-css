@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
+    border-bottom: 2px rgba(39, 242, 222, 0.3) solid;
 }
 
 h1 {
@@ -45,11 +46,17 @@ a:hover {
 }
 
 main {
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     align-items: center;
-    padding: 1.8em;
-    padding-inline: 128px;
-    border-top: 2px rgba(39, 242, 222, 0.3) solid;
+    padding: 25px;
+}
+
+img {
+    width: auto;
+    max-width: 512px;
+    min-width: 400px;
 }
 
 #conteudo-site {
@@ -71,4 +78,27 @@ main {
 
 #texto-conteudo {
     padding-top: 1em;
+}
+
+@media screen and (max-width: 990px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+    }
 }
