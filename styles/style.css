@@ -94,7 +94,9 @@ img {
     }
 
     img {
-        width: 300px;
+        max-width: none;
+        min-width: none;
+        width: 256px;
     }
 
     main {
