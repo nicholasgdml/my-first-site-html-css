@@ -55,9 +55,7 @@ main {
 }
 
 img {
-    width: auto;
-    max-width: 512px;
-    min-width: 400px;
+    width: 416px;
 }
 
 #conteudo-site {
@@ -94,9 +92,8 @@ img {
     }
 
     img {
-        max-width: none;
-        min-width: none;
         width: 256px;
+        padding: 10px;
     }
 
     main {
@@ -106,6 +103,10 @@ img {
     }
 
     #conteudo-site {
-        padding: 25px;
+        padding: 16px;
+    }
+
+    .titulos-conteudo {
+        text-align: center;
     }
 }
